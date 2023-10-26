@@ -2,7 +2,43 @@ body,
 html,
 *{
     font-size: 10px;
+    box-sizing: border-box;
     margin: 0;
     padding:0;
 }
-
+body{
+    text-align: center;
+}
+.card {
+    width: 23%;
+    height: 20rem ;
+    background-color: #59515e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1.3rem 3;
+    padding: 1%;
+  border-radius: 6px;
+}
+.display-image{
+    width: 65%;
+    height:65%
+}
+.displayartist{
+    font-size: 1.7rem;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    justify-content: space-around;
+    width: 80vw;
+    align-items: center;
+  }
+  .displayalbum{
+    font-size: 1.5rem;
+  }
+.button{
+    font-size: 1.5rem;
+}

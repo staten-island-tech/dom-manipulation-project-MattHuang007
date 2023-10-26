@@ -1,6 +1,7 @@
-DOMselectors ={
+const DOMselectors={
     form: document.querySelector("#form"),
     firstname: document.querySelector("firstName"),
+    lastname: document.querySelector("lastName"),
 }
 {
     
