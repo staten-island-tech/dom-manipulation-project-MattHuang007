@@ -11,3 +11,13 @@ const DOMselectors={
 //addCard(Album)
 //clearFields()
 //addRemoveButtons
+
+/*function.removebutton(){
+    let buttons = document.querySelectorAll("button");
+    buttons.forEach((btn)=>
+    btn.addEventListener("click", function(event)){
+        console.log(event.target.parentElement.parentElement);
+    })
+    );
+} 
+removebutton();*/
