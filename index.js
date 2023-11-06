@@ -3,9 +3,7 @@ const DOMselectors={
     firstname: document.querySelector("firstName"),
     lastname: document.querySelector("lastName"),
 }
-{
-    
-}
+addEventListener()
 //no "onclick"
 //const Album= makeAlbum()
 //addCard(Album)
